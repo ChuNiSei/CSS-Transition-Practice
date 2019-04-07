@@ -1,0 +1,17 @@
+﻿.mnc-dot-03 {
+    will-change: transform;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    bottom: -10px;
+    left: -10px;
+    background-color: #333;
+    transition: left 1s cubic-bezier(0.6, 0, 0.3, 1), bottom 1s cubic-bezier(0.0, 0.0, 1.0, 1.0);
+}
+
+#dot03:hover .mnc-dot-03{
+    left: 90px;
+    bottom: 90px;
+    transition: left 1s cubic-bezier(0.6, 0, 0.3, 1), bottom 1s cubic-bezier(0.0, 0.0, 1.0, 1.0);
+}
